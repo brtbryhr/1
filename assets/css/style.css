@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header nav {
+  position: fixed;
+  width: 100%;
+  padding: 0 10px 0 10px; 
+  height: 70px;
+  line-height: 70px;
+  background-color: aquamarine;
+}
+
+nav .nav-left {
+  float: left;
+}
+
+nav .nav-right {
+  float: right;
+}
+
+nav img {
+  vertical-align: middle;
+}
+
+nav ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+
